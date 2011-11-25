@@ -1,4 +1,3 @@
-
 Mocha does not come equipped with spies, though libraries like [Sinon](https://github.com/cjohansen/sinon.js) provide this behaviour if desired. The following is an example of Mocha utilizing Sinon to test an EventEmitter:
 
 ```js
@@ -29,7 +28,7 @@ describe('EventEmitter', function(){
 })
 ```
 
-The following is the same test, performed without any special spy library, simply utilizing the Mocha `done([err])` callback as a means to assert that the callback has occurred, otherwise resulting in a timeout.
+The following is the same test, performed without any special spy library, simply utilizing the Mocha `done([err])` callback as a means to assert that the callback has occurred, otherwise resulting in a timeout. Note that Mocha only allows `done()` to be invoked once, and will otherwise error.
 
 ```js
 describe('EventEmitter', function(){
