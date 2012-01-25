@@ -1,13 +1,9 @@
-
 Mocha currently has no concept of a "shared behaviour" however the "contexts" facilitate this feature. For example suppose you have an `Admin` which inherits from `User`, you most likely will not want to duplicate the `User` tests for `Admin`. The "context" (`this`) is the same object within the "before each", "after each" hooks, and the test-case itself, allowing you to utilize this instead of closures to store data. The following is an example of how you can achieve this sort of functionality:
 
-test.js:
+shared.js:
 
 ```js
-var User = require('./user').User
-  , Admin = require('./user').Admin;
-
-function shouldBehaveLikeAUser() {
+exports.shouldBehaveLikeAUser = function(){
   it('should have .name.first', function(){
     this.user.name.first.should.equal('tobi');
   })
@@ -21,14 +17,22 @@ function shouldBehaveLikeAUser() {
       this.user.fullname().should.equal('tobi holowaychuk');
     })
   })
-}
+};
+```
+
+test.js:
+
+```js
+var User = require('./user').User
+  , Admin = require('./user').Admin
+  , shared = require('./shared');
 
 describe('User', function(){
   beforeEach(function(){
     this.user = new User('tobi', 'holowaychuk');
   })
 
-  shouldBehaveLikeAUser();
+  shared.shouldBehaveLikeAUser();
 })
 
 describe('Admin', function(){
@@ -36,7 +40,7 @@ describe('Admin', function(){
     this.user = new Admin('tobi', 'holowaychuk');
   })
 
-  shouldBehaveLikeAUser();
+  shared.shouldBehaveLikeAUser();
 
   it('should be an .admin', function(){
     this.user.admin.should.be.true;
