@@ -15,17 +15,11 @@
 
 [sinon.js](http://sinonjs.org/) - Test spies, stubs and mocks for JavaScript.
 
-### Reporters
+### Interfaces & Reporters
 
 [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
 
 ## Mocha Examples
-[Express](https://github.com/visionmedia/express/tree/master/test)
+[Express](https://github.com/visionmedia/express/tree/master/test) | [Connect](https://github.com/senchalabs/connect/tree/master/test)
 
-[Connect](https://github.com/senchalabs/connect/tree/master/test)
-
-[SuperAgent](https://github.com/visionmedia/superagent/tree/master/test/node)
-
-[WebSocket.io](https://github.com/LearnBoost/websocket.io/tree/master/test)
-
-[Mocha](https://github.com/visionmedia/mocha/tree/master/test)
+[SuperAgent](https://github.com/visionmedia/superagent/tree/master/test/node) | [WebSocket.io](https://github.com/LearnBoost/websocket.io/tree/master/test) | [Mocha](https://github.com/visionmedia/mocha/tree/master/test)
