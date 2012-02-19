@@ -11,6 +11,10 @@
 
 [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
 
+### Mocks, Stubs, & Spies
+
+[sinon.js](http://sinonjs.org/) - Test spies, stubs and mocks for JavaScript.
+
 ### Reporters
 
 [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
