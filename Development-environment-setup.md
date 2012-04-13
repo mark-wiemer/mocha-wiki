@@ -2,20 +2,25 @@ When you contribute to mocha itself, you will probably want to try to run your c
 
 For example, [WebSocket.io](https://github.com/LearnBoost/websocket.io/):
 
-`$ git clone https://github.com/LearnBoost/websocket.io.git`
+    $ git clone https://github.com/LearnBoost/websocket.io.git
 
 Retreive websocket.io's dependencies, which will include the stable version of mocha:
 
-`$ cd websocket.io/ && npm install`
+    $ cd websocket.io/
+    $ npm install
 
 Replace the mocha dependency by the current git repository:
 
-`$ cd node_modules/ && mv mocha/ mocha.save && git clone https://github.com/visionmedia/mocha.git`
+    $ cd node_modules/
+    $ mv mocha/ mocha.save
+    $ git clone https://github.com/visionmedia/mocha.git
 
 Install mocha's dependencies for the development version:
 
-`$ cd mocha && npm install`
+    $ cd mocha
+    $ npm install
 
 Run websocket.io's test suite using the development version you just installed:
 
-`$ cd ../.. && ./node_modules/.bin/mocha`
+    $ cd ../.. 
+    $ ./node_modules/.bin/mocha
