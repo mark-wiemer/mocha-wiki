@@ -1,6 +1,7 @@
  - [[Spies]]
  - [[Shared Behaviours]]
  - [[Development Environment Setup]]
+ - [[Conditionally failing tests in afterEach() hooks]]
  - [[Tagging]]
 
 ##Add-ons
