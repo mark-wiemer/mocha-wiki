@@ -2,6 +2,7 @@
  - [[Shared Behaviours]]
  - [[Development Environment Setup]]
  - [[Conditionally failing tests in afterEach() hooks]]
+ - [[Third party reporters]]
  - [[Tagging]]
 
 ##Add-ons
