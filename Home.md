@@ -25,6 +25,8 @@
 
 [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
 
+[JSCovRepoter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
+
 ## Mocha Examples
 [Express](https://github.com/visionmedia/express/tree/master/test) | [Connect](https://github.com/senchalabs/connect/tree/master/test)
 
