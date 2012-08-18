@@ -29,6 +29,8 @@ fs.readdirSync('some/dir').filter(function(file){
 mocha.run();
 ```
 
+## Set options
+
 There are two ways to set the options to run the tests.
 
 Firstly, you can set these options in the constructor object:
