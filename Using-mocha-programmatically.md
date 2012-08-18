@@ -2,30 +2,32 @@ There are a lot of reasons why you might want to automate running the tests usin
 
 Here is an example of using mocha programmatically:
 
-    var Mocha = require('mocha'),
-        fs = require('fs'),
-        path = require('path');
+```javascript
+var Mocha = require('mocha'),
+    fs = require('fs'),
+    path = require('path');
 
-    // First, you need to instantiate a Mocha instance.
-    var mocha = new Mocha;
+// First, you need to instantiate a Mocha instance.
+var mocha = new Mocha;
 
-    // Then, you need to use the method "addFile" on the mocha
-    // object for each file.
+// Then, you need to use the method "addFile" on the mocha
+// object for each file.
 
-    // Here is an example:
-    fs.readdirSync('some/dir').filter(function(file){
-        // Only keep the .js files
-        return file.substr(-3) === '.js';
+// Here is an example:
+fs.readdirSync('some/dir').filter(function(file){
+    // Only keep the .js files
+    return file.substr(-3) === '.js';
 
-    }).forEach(function(file){
-        // Use the method "addFile" to add the file to mocha
-        mocha.addFile(
-            path.join('some/dir', file)
-        );
-    });
+}).forEach(function(file){
+    // Use the method "addFile" to add the file to mocha
+    mocha.addFile(
+        path.join('some/dir', file)
+    );
+});
 
-    // Now, you can run the tests.
-    mocha.run();
+// Now, you can run the tests.
+mocha.run();
+```
 
 On the `mocha` object, there are some methods allowing you to change the options available to the command line.
 
