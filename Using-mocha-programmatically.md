@@ -33,11 +33,12 @@ On the `mocha` object, there are some methods allowing you to change the options
 
 Here is an example:
 
-    // Change the reporter to "list" before running the tests
-    mocha.reporter('list').run();
+```javascript
+// Change the reporter to "list" before running the tests
+mocha.reporter('list').run();
 
-    // Change the UI to "tdd" before running the tests
-    mocha.ui('tdd').run();
+// Change the UI to "tdd" before running the tests
+mocha.ui('tdd').run();
 
 Here is the list of all these chainable methods:
 
