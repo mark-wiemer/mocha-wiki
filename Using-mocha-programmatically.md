@@ -29,7 +29,25 @@ fs.readdirSync('some/dir').filter(function(file){
 mocha.run();
 ```
 
-On the `mocha` object, there are some chainable methods allowing you to change the options available to the command line.
+There are two ways to set the options to run the tests.
+
+Firstly, you can set these options in the constructor object:
+
+```javascript
+var mocha = new Mocha({
+    ui: 'tdd',
+    reporter: 'list'
+});
+```
+
+Here is the list of these options:
+
+- `grep`
+- `ui`
+- `reporter`
+- `timeout`
+
+Or, on the `mocha` object, there are some chainable methods allowing you to change some more options.
 
 Here is an example:
 
