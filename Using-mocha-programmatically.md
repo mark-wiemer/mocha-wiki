@@ -40,7 +40,7 @@ mocha.reporter('list').run();
 // Change the UI to "tdd" before running the tests
 mocha.ui('tdd').run();
 
-// Or do both
+// Or do both changes before running the tests
 mocha.reporter('list').ui('tdd').run();
 ```
 
