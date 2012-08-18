@@ -47,7 +47,7 @@ Here is the list of these options:
 - `reporter`
 - `timeout`
 
-Or, on the `mocha` object, there are some chainable methods allowing you to change some more options.
+Secondly, on the `mocha` object, there are some chainable methods allowing you to change some more options.
 
 Here is an example:
 
