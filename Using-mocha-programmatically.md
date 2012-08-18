@@ -29,7 +29,7 @@ fs.readdirSync('some/dir').filter(function(file){
 mocha.run();
 ```
 
-On the `mocha` object, there are some methods allowing you to change the options available to the command line.
+On the `mocha` object, there are some chainable methods allowing you to change the options available to the command line.
 
 Here is an example:
 
