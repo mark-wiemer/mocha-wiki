@@ -39,10 +39,10 @@ Here is an example:
 
 Here is the list of all these chainable methods:
 
-- reporter: set the reporter.
-- ui: set the ui.
-- grep: add regex to grep.
-- invert: invert the grep.
-- ignoreLeaks: ignore global leaks.
-- growl: enable growl support.
-- globals: ignore globals.
+- `reporter()`: set the reporter.
+- `ui()`: set the ui.
+- `grep()`: add regex to grep.
+- `invert()`: invert the grep.
+- `ignoreLeaks()`: ignore global leaks.
+- `growl()`: enable growl support.
+- `globals()`: ignore globals.
