@@ -4,6 +4,7 @@
  - [[Conditionally failing tests in afterEach() hooks]]
  - [[Third party reporters]]
  - [[Tagging]]
+ - [[Using mocha programmatically]]
 
 ##Add-ons
 
