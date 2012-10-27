@@ -10,23 +10,19 @@
 
 ### Assertion Libraries
 
-[should.js](http://github.com/visionmedia/should.js) - BDD style shown throughout these docs
-
-[chai](http://chaijs.com/) - expect(), assert() and should style assertions
-
-[expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
+ - [should.js](http://github.com/visionmedia/should.js) - BDD style shown throughout these docs
+ - [chai](http://chaijs.com/) - expect(), assert() and should style assertions
+ - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
 
 ### Mocks, Stubs, & Spies
 
-[sinon.js](http://sinonjs.org/) - Test spies, stubs and mocks for JavaScript.
+  - [sinon.js](http://sinonjs.org/) - Test spies, stubs and mocks for JavaScript.
 
 ### Interfaces & Reporters
 
-[mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
-
-[lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
-
-[JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
+  - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
+  - [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
+  - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
 
 ### Headless testing
 
