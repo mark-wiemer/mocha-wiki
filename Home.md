@@ -28,6 +28,10 @@
 
 [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
 
+### Headless testing
+
+  - [mocha-phantomjs](https://github.com/metaskills/mocha-phantomjs) -- run mocha tests with phantomjs
+
 ## Mocha Examples
 [Express](https://github.com/visionmedia/express/tree/master/test) | [Connect](https://github.com/senchalabs/connect/tree/master/test)
 
