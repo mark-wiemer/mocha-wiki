@@ -28,6 +28,10 @@
 
   - [mocha-phantomjs](https://github.com/metaskills/mocha-phantomjs) -- run mocha tests with phantomjs
 
+## Frameworks
+
+  - [Konacha](https://github.com/jfirebaugh/konacha) -- Ruby on Rails mocha integration
+
 ## Mocha Examples
 [Express](https://github.com/visionmedia/express/tree/master/test) | [Connect](https://github.com/senchalabs/connect/tree/master/test)
 
