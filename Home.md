@@ -27,6 +27,8 @@
 ### Headless testing
 
   - [mocha-phantomjs](https://github.com/metaskills/mocha-phantomjs) -- run mocha tests with phantomjs
+  - [mocha-cloud](https://github.com/visionmedia/mocha-cloud) -- run mocha tests on SauceLabs
+  - [mocha-cloud-grid-view](https://github.com/visionmedia/mocha-cloud-grid-view) -- terminal grid view for mocha-cloud
 
 ## Frameworks
 
