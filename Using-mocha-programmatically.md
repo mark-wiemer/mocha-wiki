@@ -26,7 +26,9 @@ fs.readdirSync('some/dir').filter(function(file){
 });
 
 // Now, you can run the tests.
-mocha.run(process.exit);
+mocha.run(function(){
+  process.exit();
+});
 ```
 
 ## Set options
