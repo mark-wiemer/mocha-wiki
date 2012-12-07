@@ -30,6 +30,11 @@
   - [mocha-cloud](https://github.com/visionmedia/mocha-cloud) -- run mocha tests on SauceLabs
   - [mocha-cloud-grid-view](https://github.com/visionmedia/mocha-cloud-grid-view) -- terminal grid view for mocha-cloud
 
+### Test coverage
+
+  - mocha's out of the box html-cov reporter
+  - [cover](https://github.com/itay/node-cover)
+
 ## Frameworks
 
   - [Konacha](https://github.com/jfirebaugh/konacha) -- Ruby on Rails mocha integration
