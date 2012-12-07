@@ -38,6 +38,7 @@
 ## Frameworks
 
   - [Konacha](https://github.com/jfirebaugh/konacha) -- Ruby on Rails mocha integration
+  - [mocha.js-haxe](https://github.com/rjanicek/mocha.js-haxe) -- [Haxe](http://haxe.org) mocha integration 
 
 ## Mocha Examples
 [Express](https://github.com/visionmedia/express/tree/master/test) | [Connect](https://github.com/senchalabs/connect/tree/master/test)
