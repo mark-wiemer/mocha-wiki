@@ -26,10 +26,8 @@ fs.readdirSync('some/dir').filter(function(file){
 });
 
 // Now, you can run the tests.
-mocha.run(function(nErrors){
-  var exitCode = nErrors? 1 : 0;
-  // make sure we exit with an error code if some test fails
-  process.exit(exitCode);
+mocha.run(function(){
+  process.exit();
 });
 ```
 
