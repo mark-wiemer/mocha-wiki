@@ -5,6 +5,7 @@
  - [[Third party reporters]]
  - [[Tagging]]
  - [[Using mocha programmatically]]
+ - [[Developer docs]]
 
 ##Add-ons
 
