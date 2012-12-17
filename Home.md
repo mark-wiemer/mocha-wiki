@@ -35,6 +35,8 @@
 
   - mocha's out of the box html-cov reporter
   - [cover](https://github.com/itay/node-cover)
+  - [istanbul](https://github.com/yahoo/istanbul)
+  - [example nodejs app using mocha and istanbul](https://github.com/BryanDonovan/nodejs-tdd-boilerplate)
 
 ## Frameworks
 
