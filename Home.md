@@ -24,6 +24,7 @@
   - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
   - [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
   - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
+  - [qunit-mocha-ui](https://github.com/itaylor/qunit-mocha-ui) - A Mocha interface that more closely replicates the QUnit API, including QUnit's assertions.
 
 ### Headless testing
 
