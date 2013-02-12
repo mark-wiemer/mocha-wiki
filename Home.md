@@ -40,6 +40,7 @@
   - [cover](https://github.com/itay/node-cover)
   - [istanbul](https://github.com/yahoo/istanbul)
   - [example nodejs app using mocha and istanbul](https://github.com/BryanDonovan/nodejs-tdd-boilerplate)
+  - [blanket](https://github.com/Migrii/blanket/blob/master/docs/getting_started_node.md)
 
 ## Frameworks
 
