@@ -5,6 +5,7 @@
  - [[Third party reporters]]
  - [[Tagging]]
  - [[Using mocha programmatically]]
+ - [[Detecting global leaks]]
  - [[Developer docs]]
 
 ##Add-ons
