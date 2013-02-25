@@ -22,6 +22,7 @@
 
 ### Interfaces & Reporters
 
+  - [mocha-matrix](https://github.com/visionmedia/mocha-matrix) - concise matrix reporter for the browser
   - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
   - [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
   - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
