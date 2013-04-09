@@ -29,7 +29,8 @@
   - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
   - [qunit-mocha-ui](https://github.com/itaylor/qunit-mocha-ui) - A Mocha interface that more closely replicates the QUnit API, including QUnit's assertions.
   - [xunit-file](https://github.com/peerigon/xunit-file) - A Mocha reporter similar to `xunit`, but writes to a file (excludes all `console.log` output that breaks the xml).
-  - [WebConsole-reporter](https://github.com/eeroan/WebConsole-reporter) - A Mocha reporter that displays reports in browser console. Works faster than html reporter and provides clickable stack traces 
+  - [WebConsole-reporter](https://github.com/eeroan/WebConsole-reporter) - A Mocha reporter that displays reports in browser console. Works faster than html reporter and provides clickable stack traces.
+  - [mocha-slow-reporter](https://github.com/msiebuhr/node-mocha-slow-reporter) - Outputs a profile-like tree of the tests/hooks to help you fix test-suite slowness.
 
 ### Headless testing
 
