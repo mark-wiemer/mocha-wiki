@@ -33,6 +33,7 @@
   - [WebConsole-reporter](https://github.com/eeroan/WebConsole-reporter) - A Mocha reporter that displays reports in browser console. Works faster than html reporter and provides clickable stack traces.
   - [mocha-slow-reporter](https://github.com/msiebuhr/node-mocha-slow-reporter) - Outputs a profile-like tree of the tests/hooks to help you fix test-suite slowness.
   - [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter) - An alternate to the default Spec-style reporter for improved usability and added compatibility features for use in various low-tech scenarios. Does *not* use console cursor tricks or positional ANSI codes.
+  - [mocha-fivemat-reporter](https://github.com/dsawardekar/mocha-fivemat-reporter) - Reporter format inspired by [fivemat](https://www.github.com/tpope/fivemat). Better signal vs noise ratio for larger test suites.
 
 ### Headless testing
 
