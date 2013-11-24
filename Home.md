@@ -52,6 +52,7 @@
 ## Frameworks
 
   - [Konacha](https://github.com/jfirebaugh/konacha) -- Ruby on Rails mocha integration
+  - [Teaspoon](https://github.com/modeset/teaspoon) -- Ruby on Rails mocha integration
   - [mocha.js-haxe](https://github.com/rjanicek/mocha.js-haxe) -- [Haxe](http://haxe.org) mocha integration
   - [Yadda](https://github.com/acuminous/yadda) -- Run BDD feature files with mocha
 
