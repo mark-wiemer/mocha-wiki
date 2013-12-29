@@ -6,7 +6,6 @@
  - [[Tagging]]
  - [[Using mocha programmatically]]
  - [[Detecting global leaks]]
- - [[Developer docs]]
  - [[Assertion counting]]
 
 ##Add-ons
