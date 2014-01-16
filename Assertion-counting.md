@@ -20,7 +20,7 @@ function reset() {
 }
 
 function check() {
-  if (expected == actual) return;
+  if (!expected || expected == actual) return;
   var err = new Error('expected ' + expected + ' assertions, got ' + actual);
   this.currentTest.emit('error', err);
 }
