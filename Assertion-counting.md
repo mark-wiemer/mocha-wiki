@@ -16,6 +16,7 @@ function expect(n) {
 
 function reset() {
   expected = 0;
+  actual = 0;
 }
 
 function check() {
