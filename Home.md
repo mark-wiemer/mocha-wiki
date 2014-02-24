@@ -20,6 +20,7 @@
 ### Mocks, Stubs, & Spies
 
   - [sinon.js](http://sinonjs.org/) - Test spies, stubs and mocks for JavaScript.
+  - [nock](https://github.com/pgte/nock) - HTTP mocking and expectations library.
 
 ### Interfaces & Reporters
 
