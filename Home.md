@@ -27,6 +27,7 @@
   - [mocha-matrix](https://github.com/visionmedia/mocha-matrix) - concise matrix reporter for the browser
   - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
   - [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
+  - [text-cov](https://github.com/seanmonstar/mocha-text-cov) -- Text summary in console of code coverage
   - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
   - [qunit-mocha-ui](https://github.com/itaylor/qunit-mocha-ui) - A Mocha interface that more closely replicates the QUnit API, including QUnit's assertions.
   - [xunit-file](https://github.com/peerigon/xunit-file) - A Mocha reporter similar to `xunit`, but writes to a file (excludes all `console.log` output that breaks the xml).
