@@ -36,6 +36,7 @@
   - [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter) - An alternate to the default Spec-style reporter for improved usability and added compatibility features for use in various low-tech scenarios. Does *not* use console cursor tricks or positional ANSI codes.
   - [mocha-fivemat-reporter](https://github.com/dsawardekar/mocha-fivemat-reporter) - Reporter format inspired by [fivemat](https://www.github.com/tpope/fivemat). Better signal vs noise ratio for larger test suites.
   - [mocha-teamcity-reporter](https://github.com/travisjeffery/mocha-teamcity-reporter) - Teamcity reporter for Mocha.
+  - [loca](https://github.com/simov/loca) - Reporter in your browser's console.
 
 ### Headless testing
 
