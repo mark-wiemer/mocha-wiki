@@ -37,6 +37,7 @@
   - [mocha-fivemat-reporter](https://github.com/dsawardekar/mocha-fivemat-reporter) - Reporter format inspired by [fivemat](https://www.github.com/tpope/fivemat). Better signal vs noise ratio for larger test suites.
   - [mocha-teamcity-reporter](https://github.com/travisjeffery/mocha-teamcity-reporter) - Teamcity reporter for Mocha.
   - [loca](https://github.com/simov/loca) - Reporter in your browser's console.
+  - [mocha-retry](https://github.com/giggio/mocha-retry) - Allows you to retry a test if it fails using the bdd ui. Useful on unstable tests, like those that drive a browser. 
 
 ### Headless testing
 
