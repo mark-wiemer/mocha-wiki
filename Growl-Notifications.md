@@ -1,0 +1,1 @@
+For Growl notifications to work, make sure you've followed the installation steps described [here](https://github.com/visionmedia/node-growl#installation).
