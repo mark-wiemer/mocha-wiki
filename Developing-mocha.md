@@ -1,5 +1,3 @@
-# Developing Mocha
-
 This page contains info on developing Mocha itself.
 
 ## Environment setup
