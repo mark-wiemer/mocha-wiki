@@ -1,6 +1,6 @@
  - [[Spies]]
  - [[Shared Behaviours]]
- - [[Development Mocha]]
+ - [[Developing Mocha]]
  - [[Conditionally failing tests in afterEach() hooks]]
  - [[Third party reporters]]
  - [[Tagging]]
