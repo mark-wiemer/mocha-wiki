@@ -45,6 +45,7 @@
   - [mocha-phantomjs](https://github.com/metaskills/mocha-phantomjs) -- run mocha tests with phantomjs
   - [mocha-cloud](https://github.com/visionmedia/mocha-cloud) -- run mocha tests on SauceLabs
   - [mocha-cloud-grid-view](https://github.com/visionmedia/mocha-cloud-grid-view) -- terminal grid view for mocha-cloud
+  - [mochify](https://github.com/mantoni/mochify.js) -- run browserified mocha tests with phantomjs, selenium webdriver and saucelabs
 
 ### Test coverage
 
@@ -53,6 +54,7 @@
   - [istanbul](https://github.com/yahoo/istanbul)
   - [example nodejs app using mocha and istanbul](https://github.com/BryanDonovan/nodejs-tdd-boilerplate)
   - [blanket](https://github.com/alex-seville/blanket)
+  - [mochify](https://github.com/mantoni/mochify.js) -- coverage for node and phantomjs using browserify and coverify
 
 ## Frameworks
 
