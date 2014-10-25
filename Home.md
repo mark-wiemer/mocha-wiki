@@ -53,9 +53,11 @@
   - mocha's out of the box html-cov reporter
   - [cover](https://github.com/itay/node-cover)
   - [istanbul](https://github.com/yahoo/istanbul)
-  - [example nodejs app using mocha and istanbul](https://github.com/BryanDonovan/nodejs-tdd-boilerplate)
   - [blanket](https://github.com/alex-seville/blanket)
   - [mochify](https://github.com/mantoni/mochify.js) -- coverage for node and phantomjs using browserify and coverify
+  - Examples
+    - [app using mocha and istanbul](https://github.com/BryanDonovan/nodejs-tdd-boilerplate)
+    - [100% code coverage using mocha and istanbul](https://github.com/guyellis/http-status-check)
 
 ## Frameworks
 
