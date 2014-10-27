@@ -52,6 +52,7 @@ Here is the list of these options:
 - `ui`
 - `reporter`
 - `timeout`
+- `bail`
 
 Secondly, on the `mocha` object, there are some chainable methods allowing you to change some more options.
 
