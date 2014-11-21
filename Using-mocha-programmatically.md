@@ -73,7 +73,7 @@ Here is the list of all these chainable methods:
 
 - `reporter()`: set the reporter.
 - `ui()`: set the ui.
-- `grep()`: add regex to grep.
+- `grep()`: add regex to grep. Unlike the command line parameter, grep() requires a RegExp() object for regular expressions. Everything else is escaped.
 - `invert()`: invert the grep.
 - `ignoreLeaks()`: ignore global leaks.
 - `growl()`: enable growl support.
