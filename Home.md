@@ -13,7 +13,7 @@
 
 ### Assertion Libraries
 
- - [should.js](http://github.com/visionmedia/should.js) - BDD style shown throughout these docs
+ - [should.js](https://github.com/shouldjs/should.js) - BDD style shown throughout these docs
  - [chai](http://chaijs.com/) - expect(), assert() and should style assertions
  - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
  - [expectations](https://github.com/spmason/expectations) - Jasmine-style expect()
