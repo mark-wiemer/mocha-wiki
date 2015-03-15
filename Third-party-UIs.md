@@ -12,8 +12,8 @@ var Mocha    = require('mocha');
 /**
  * A simple UI that only exposes a single function: test
  */
-module.exports = Mocha.interfaces['simple-ui'] = function(suite){
-  suite.on('pre-require', function(context, file, mocha){
+module.exports = Mocha.interfaces['simple-ui'] = function(suite) {
+  suite.on('pre-require', function(context, file, mocha) {
     var common = require('mocha/lib/interfaces/common')([suite], context);
 
     context.run = mocha.options.delay && common.runWithSuite(suite);
@@ -22,7 +22,7 @@ module.exports = Mocha.interfaces['simple-ui'] = function(suite){
      * Describes a specification or test-case  with the given `title`
      * and callback `fn` acting as a thunk.
      */
-    context.test = function(title, fn){
+    context.test = function(title, fn) {
       var test = new Test(title, fn);
       test.file = file;
       suite.addTest(test);
@@ -74,10 +74,10 @@ var Mocha    = require('mocha');
  * "comment" function:
  * https://github.com/mochajs/mocha/blob/master/lib/interfaces/tdd.js
  */
-module.exports = Mocha.interfaces['example-ui'] = function(suite){
+module.exports = Mocha.interfaces['example-ui'] = function(suite) {
   var suites = [suite];
 
-  suite.on('pre-require', function(context, file, mocha){
+  suite.on('pre-require', function(context, file, mocha) {
     var common = require('mocha/lib/interfaces/common')(suites, context);
 
     /**
@@ -146,7 +146,7 @@ module.exports = Mocha.interfaces['example-ui'] = function(suite){
     /**
      * Default TDD exclusive test-case logic.
      */
-    context.suite.only = function(title, fn){
+    context.suite.only = function(title, fn) {
       var suite = context.suite(title, fn);
       mocha.grep(suite.fullTitle());
     };
@@ -155,7 +155,7 @@ module.exports = Mocha.interfaces['example-ui'] = function(suite){
      * Default TDD test-case logic. Describes a specification or test-case
      * with the given `title` and callback `fn` acting as a thunk.
      */
-    context.test = function(title, fn){
+    context.test = function(title, fn) {
       var suite, test;
 
       suite = suites[0];
