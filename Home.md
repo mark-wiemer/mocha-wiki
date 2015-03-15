@@ -3,6 +3,7 @@
  - [[Developing Mocha]]
  - [[Conditionally failing tests in afterEach() hooks]]
  - [[Third party reporters]]
+ - [[Third party uis]]
  - [[Tagging]]
  - [[Using mocha programmatically]]
  - [[Detecting global leaks]]
