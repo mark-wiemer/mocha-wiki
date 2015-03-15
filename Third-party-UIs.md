@@ -2,7 +2,66 @@ Mocha allows you to define custom UIs with the same power as those readily avail
 
 Creating a Third Party UI involves listening for the `pre-require` event emitted by the root suite. It passes a Mocha context object on which you can install the various functions necessary for the UI. Your UI will need to manage the organization and nesting of suites and tests itself, along with marking suites as skipped/pending if this is behavior you chose to expose.
 
-In this example, we'll be extending the [TDD interface](https://github.com/mochajs/mocha/blob/master/lib/interfaces/tdd.js) with a comment function that simply prints the passed text. That is, `comment('This is a comment');` would print the string.
+In this first brief example, we'll create an interface with only a single function: `test`
+
+``` javascript
+var Mocha    = require('mocha');
+    Suite    = require('mocha/lib/suite'),
+    Test     = require('mocha/lib/test');
+
+/**
+ * A simple UI that only exposes a single function: test
+ */
+module.exports = Mocha.interfaces['simple-ui'] = function(suite){
+  suite.on('pre-require', function(context, file, mocha){
+    var common = require('mocha/lib/interfaces/common')([suite], context);
+
+    context.run = mocha.options.delay && common.runWithSuite(suite);
+
+    /**
+     * Describes a specification or test-case  with the given `title`
+     * and callback `fn` acting as a thunk.
+     */
+    context.test = function(title, fn){
+      var test = new Test(title, fn);
+      test.file = file;
+      suite.addTest(test);
+
+      return test;
+    };
+  });
+};
+```
+
+``` javascript
+test('pass', function() {
+  // pass
+});
+
+test('fail', function() {
+  throw new Error('oops!');
+});
+```
+
+```
+$ # Install dependencies
+$ npm install mocha
+$ mocha --require ./simple-ui.js --ui simple-ui test.js
+
+
+  ✓ pass
+  1) fail
+
+  1 passing (4ms)
+  1 failing
+
+  1)  fail:
+     Error: oops!
+      at Context.<anonymous> (/Users/danielstjules/Desktop/example/test.js:6:9)
+  ...
+```
+
+In this next example, we'll be extending the [TDD interface](https://github.com/mochajs/mocha/blob/master/lib/interfaces/tdd.js) with a comment function that simply prints the passed text. That is, `comment('This is a comment');` would print the string.
 
 ``` javascript
 var Mocha    = require('mocha');
