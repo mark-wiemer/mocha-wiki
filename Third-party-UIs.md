@@ -5,9 +5,9 @@ Creating a Third Party UI involves listening for the `pre-require` event emitted
 In this first brief example, we'll create an interface with only a single function: `test`
 
 ``` javascript
-var Mocha    = require('mocha');
-    Suite    = require('mocha/lib/suite'),
-    Test     = require('mocha/lib/test');
+var Mocha = require('mocha');
+    Suite = require('mocha/lib/suite'),
+    Test  = require('mocha/lib/test');
 
 /**
  * A simple UI that only exposes a single function: test
@@ -19,7 +19,7 @@ module.exports = Mocha.interfaces['simple-ui'] = function(suite) {
     context.run = mocha.options.delay && common.runWithSuite(suite);
 
     /**
-     * Describes a specification or test-case  with the given `title`
+     * Describes a specification or test-case with the given `title`
      * and callback `fn` acting as a thunk.
      */
     context.test = function(title, fn) {
