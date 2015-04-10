@@ -18,6 +18,7 @@
  - [chai](http://chaijs.com/) - expect(), assert() and should style assertions
  - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
  - [expectations](https://github.com/spmason/expectations) - Jasmine-style expect()
+ - [unit.js](https://github.com/unitjs/unit.js) - simple, fluent assertions
 
 ### Mocks, Stubs, & Spies
 
