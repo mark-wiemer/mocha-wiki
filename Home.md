@@ -59,7 +59,7 @@
 
   - mocha's out of the box html-cov reporter
   - [cover](https://github.com/itay/node-cover)
-  - [istanbul](https://github.com/yahoo/istanbul)
+  - [istanbul](https://github.com/gotwarlost/istanbul)
   - [blanket](https://github.com/alex-seville/blanket)
   - [mochify](https://github.com/mantoni/mochify.js) -- coverage for node and phantomjs using browserify and coverify
   - Examples
