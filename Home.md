@@ -19,6 +19,7 @@
  - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
  - [expectations](https://github.com/spmason/expectations) - Jasmine-style expect()
  - [unit.js](https://github.com/unitjs/unit.js) - simple, fluent assertions
+ - [unexpected](https://unexpectedjs.github.io/) - extensible BDD assertion toolkit
 
 ### Mocks, Stubs, & Spies
 
