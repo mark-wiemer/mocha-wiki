@@ -8,7 +8,7 @@ var Mocha = require('mocha'),
     path = require('path');
 
 // First, you need to instantiate a Mocha instance.
-var mocha = new Mocha;
+var mocha = new Mocha();
 
 // Then, you need to use the method "addFile" on the mocha
 // object for each file.
