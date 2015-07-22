@@ -2,7 +2,7 @@ Detecting which module is causing a global leak can be cumbersome and boring. Bu
 ```javascript
 Object.defineProperty(global, "name_of_leaking_property", {
     set : function(value) {
-        throw new Error("SHIT!");
+        throw new Error("Found the leak!");
     }
 })
 ```
