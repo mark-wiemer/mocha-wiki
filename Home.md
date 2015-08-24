@@ -31,6 +31,7 @@
 
   - [mocha-matrix](https://github.com/visionmedia/mocha-matrix) - concise matrix reporter for the browser
   - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
+  - [mocha.parallel](https://github.com/danielstjules/mocha.parallel) - Run async mocha specs in parallel.
   - [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
   - [text-cov](https://github.com/seanmonstar/mocha-text-cov) -- Text summary in console of code coverage
   - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
