@@ -8,7 +8,7 @@ describe('EventEmitter', function(){
   describe('#emit()', function(){
     it('should invoke the callback', function(){
       var spy = sinon.spy()
-        , emitter = new EventEmitter;
+        , emitter = new EventEmitter();
 
       emitter.on('foo', spy);
       emitter.emit('foo');
@@ -17,7 +17,7 @@ describe('EventEmitter', function(){
 
     it('should pass arguments to the callbacks', function(){
       var spy = sinon.spy()
-        , emitter = new EventEmitter;
+        , emitter = new EventEmitter();
 
       emitter.on('foo', spy);
       emitter.emit('foo', 'bar', 'baz');
@@ -34,13 +34,13 @@ The following is the same test, performed without any special spy library, simpl
 describe('EventEmitter', function(){
   describe('#emit()', function(){
     it('should invoke the callback', function(done){
-      var emitter = new EventEmitter;
+      var emitter = new EventEmitter();
       emitter.on('foo', done);
       emitter.emit('foo');
     })
 
     it('should pass arguments to the callbacks', function(done){
-      var emitter = new EventEmitter;
+      var emitter = new EventEmitter();
 
       emitter.on('foo', function(a, b){
         a.should.equal('bar');
