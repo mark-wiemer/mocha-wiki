@@ -29,6 +29,7 @@
 
 ### Interfaces & Reporters
 
+  - [mocha-clean](https://github.com/rstacruz/mocha-clean) - Cleaner stack traces
   - [mocha-matrix](https://github.com/visionmedia/mocha-matrix) - concise matrix reporter for the browser
   - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
   - [mocha.parallel](https://github.com/danielstjules/mocha.parallel) - Run async mocha specs in parallel.
