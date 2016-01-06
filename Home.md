@@ -47,7 +47,7 @@
   - [mocha-teamcity-reporter](https://github.com/travisjeffery/mocha-teamcity-reporter) - Teamcity reporter for Mocha.
   - [loca](https://github.com/simov/loca) - Reporter in your browser's console.
   - [mocha-retry](https://github.com/giggio/mocha-retry) - Allows you to retry a test if it fails using the bdd ui. Useful on unstable tests, like those that drive a browser. 
-  - [child-reporter](https://github.com/yarax/mocha-child-reporter) - Reporter, that create a child process with stdout to console. Useful for testing modules, that redirect stdout to /dev/null or logs
+  - [child-reporter](https://github.com/yarax/mocha-child-reporter) - Reporter, that create a child process with stdout to console. Useful for testing modules that redirect stdout to /dev/null or logs
   - [report-viewer](https://github.com/paulpflug/report-viewer) - Cli for piping a unit test result directly into your browser. Combines the debug level of the console with the pretty output of a browser ui.
 
 ### Headless testing
