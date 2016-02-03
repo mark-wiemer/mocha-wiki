@@ -24,9 +24,9 @@ fs.readdirSync(testDir).filter(function(file){
 });
 
 // Run the tests.
-mocha.run(function(failures){
-  process.on('exit', function () {
-    process.exit(failures);
+mocha.run(function(){
+  process.on('exit', function (exitCode) {
+    process.exit(exitCode);
   });
 });
 ```
