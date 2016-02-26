@@ -29,6 +29,7 @@
 
 ### Interfaces & Reporters
 
+  - [mocha-suit](https://github.com/muonjs/mocha-suit) - OOP like mocha wrapper 
   - [mocha-clean](https://github.com/rstacruz/mocha-clean) - Cleaner stack traces
   - [mocha-matrix](https://github.com/visionmedia/mocha-matrix) - concise matrix reporter for the browser
   - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
