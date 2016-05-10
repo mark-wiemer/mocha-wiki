@@ -50,6 +50,7 @@
   - [mocha-retry](https://github.com/giggio/mocha-retry) - Allows you to retry a test if it fails using the bdd ui. Useful on unstable tests, like those that drive a browser. 
   - [child-reporter](https://github.com/yarax/mocha-child-reporter) - Reporter, that create a child process with stdout to console. Useful for testing modules that redirect stdout to /dev/null or logs
   - [report-viewer](https://github.com/paulpflug/report-viewer) - Cli for piping a unit test result directly into your browser. Combines the debug level of the console with the pretty output of a browser ui.
+  - [mocha-typescript](https://www.npmjs.com/package/mocha-typescript) - TypeScript OOP, decorators based, mocha test interface
 
 ### Headless testing
 
