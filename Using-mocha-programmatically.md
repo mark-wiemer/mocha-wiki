@@ -51,6 +51,11 @@ Here is the list of these options:
 - `reporter`
 - `timeout`
 - `bail`
+- `useColors`
+- `retries`
+- `slow`
+- `ignoreLeaks`
+- `fullTrace`
 
 Secondly, on the `mocha` object, there are some chainable methods allowing you to change some more options.
 
