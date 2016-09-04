@@ -20,6 +20,7 @@
  - [expectations](https://github.com/spmason/expectations) - Jasmine-style expect()
  - [unit.js](https://github.com/unitjs/unit.js) - simple, fluent assertions
  - [unexpected](https://unexpectedjs.github.io/) - extensible BDD assertion toolkit
+ - [inspect.js](https://inspectjs.com/) - modern BDD style assertion library
 
 ### Mocks, Stubs, & Spies
 
