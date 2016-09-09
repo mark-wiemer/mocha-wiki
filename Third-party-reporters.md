@@ -3,9 +3,11 @@
   Here is a minimalistic sample reporter, for details look at the implementations in [lib/reporters/*](https://github.com/mochajs/mocha/tree/master/lib/reporters).
 
 ```js
+var mocha = require('mocha');
 module.exports = MyReporter;
 
 function MyReporter(runner) {
+  mocha.reporters.Base.call(this, runner);
   var passes = 0;
   var failures = 0;
 
