@@ -28,6 +28,9 @@
   - [simple-mock](https://github.com/jupiter/node-simple-mock) - Super simple mocks, stubs, and spies with 1-step sandbox restore.
   - [nock](https://github.com/pgte/nock) - HTTP mocking and expectations library.
 
+### Plugins
+   - [mocha-plugin-co](https://github.com/131/mocha-plugin-co) - plugin to enable generators support for (using co)
+
 ### Interfaces & Reporters
 
   - [mocha-suit](https://github.com/muonjs/mocha-suit) - OOP like mocha wrapper 
