@@ -31,7 +31,7 @@ mocha.run(function(failures){
 });
 ```
 
-`mocha.run()` returns a `Runner` instance which many emits [events](https://github.com/mochajs/mocha/blob/8cae7a34f0b6eafeb16567beb8852b827cc5956b/lib/runner.js#L47-L57) of interest.
+`mocha.run()` returns a `Runner` instance which emits many [events](https://github.com/mochajs/mocha/blob/8cae7a34f0b6eafeb16567beb8852b827cc5956b/lib/runner.js#L47-L57) of interest.
 
 ## Set options
 
