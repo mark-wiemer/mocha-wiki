@@ -12,6 +12,7 @@ describe('my nice test', function() {
   var cleanup = function() {
     process.stdout.write = write;
     console.log = log;
+    output = "";
   };
 
   beforeEach(function() {
