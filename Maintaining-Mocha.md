@@ -4,6 +4,7 @@ New sections can be added to this page, but should be refactored in case they be
 # Index
 
 1. [Release Process](https://github.com/mochajs/mocha/wiki/Maintaining-Mocha#release-process)
+2. ...
 
 # Release Process
 
