@@ -30,6 +30,7 @@
 
 ### Plugins
    - [mocha-plugin-co](https://github.com/131/mocha-plugin-co) - plugin to enable generators support for (using co)
+   - [mocha-plugin-highland](https://github.com/robertstettner/mocha-plugin-highland) - plugin to enable Highland streams support
 
 ### Interfaces & Reporters
 
