@@ -60,6 +60,7 @@
 
 ### Headless testing
 
+  - [mocha-chrome](https://github.com/shellscape/mocha-chrome) -- run mocha tests with headless Google Chrome
   - [phantom-mochachino](https://github.com/clowestab/phantom-mochachino) -- functional testing utility for running mocha tests with phantomjs
   - [mocha-phantomjs](https://github.com/metaskills/mocha-phantomjs) -- run mocha tests with phantomjs
   - [mocha-cloud](https://github.com/visionmedia/mocha-cloud) -- run mocha tests on SauceLabs
