@@ -28,7 +28,7 @@ function MyReporter(runner) {
 }
 ```
 
-You can use the following events:
+Mocha provides the following events:
  * **start**: Execution started
  * **end**: Execution complete
  * **suite**: Test suite execution started
