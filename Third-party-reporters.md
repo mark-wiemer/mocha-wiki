@@ -27,3 +27,16 @@ function MyReporter(runner) {
   });
 }
 ```
+
+You can use the following events:
+ * **start**: Execution started
+ * **end**: Execution complete
+ * **suite**: Test suite execution started
+ * **suite end**: All tests (and sub-suites) have finished
+ * **test**: Test execution started
+ * **test end**: Test completed
+ * **hook**: Hook execution started
+ * **hook end**: Hook complete
+ * **pass**: Test passed
+ * **fail**: Test failed
+ * **pending**: Test pending
