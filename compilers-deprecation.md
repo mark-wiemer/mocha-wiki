@@ -25,7 +25,7 @@ $ mocha --compilers coffee:coffee-script/register --recursive ./test
 Then this is how you'd accomplish the same thing (`**` roughly means "recursive") in v4:
 
 ```bash
-$ mocha --register coffee-script/register "test/**/*.js"
+$ mocha --require coffee-script/register "test/**/*.js"
 ```
 
 When you wrap a glob in quotes, file discovery is handed to the [glob](https://npm.im/glob) package. 
@@ -34,7 +34,7 @@ When you wrap a glob in quotes, file discovery is handed to the [glob](https://n
 [glob](https://npm.im/glob) is powerful.  For instance, if your `test` dir has tests written in *both* JS *and* CoffeeScript, you could do this:
 
 ```bash
-$ mocha --register coffee-script/register "test/**/*.{js,coffee}"
+$ mocha --require coffee-script/register "test/**/*.{js,coffee}"
 ```
 
 ## How do I use this with `--watch`?
@@ -42,7 +42,7 @@ $ mocha --register coffee-script/register "test/**/*.{js,coffee}"
 When using `--watch`, you will also need to specify the extension(s) to watch via `--watch-extensions`, e.g.:
 
 ```js
-$ mocha --register coffee-script/register --watch --watch-extensions js,coffee "test/**/*.{js,coffee}"
+$ mocha --require coffee-script/register --watch --watch-extensions js,coffee "test/**/*.{js,coffee}"
 ```
 
 ## This isn't working
