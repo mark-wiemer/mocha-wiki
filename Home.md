@@ -6,20 +6,20 @@
  - [[Third party reporters]]
  - [[Third party UIs]]
  - [[Tagging]]
- - [[Detecting global leaks]]
- - [[Assertion counting]]
+ - [Find a specific global leak](/mochajs/mocha/wiki/HOW-TO:-Find-a-specific-global-leak)
+ - [Count assertions](/mochajs/mocha/wiki/HOW-TO:-Count-assertions)
  - [[Growl Notifications]]
 
 ## Add-ons
 
 ### Assertion Libraries
 
+ - [unexpected](https://unexpectedjs.github.io/) - extensible BDD assertion toolkit *recommended*
+ - [chai](http://chaijs.com/) - expect(), assert() and should style assertions *recommended*
+ - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions *recommended*
  - [should.js](https://github.com/shouldjs/should.js) - BDD style shown throughout these docs
- - [chai](http://chaijs.com/) - expect(), assert() and should style assertions
- - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions
  - [expectations](https://github.com/spmason/expectations) - Jasmine-style expect()
  - [unit.js](https://github.com/unitjs/unit.js) - simple, fluent assertions
- - [unexpected](https://unexpectedjs.github.io/) - extensible BDD assertion toolkit
  - [inspect.js](https://inspectjs.com/) - modern BDD style assertion library
 
 ### Mocks, Stubs, & Spies
