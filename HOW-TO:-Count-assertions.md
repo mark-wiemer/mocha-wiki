@@ -1,4 +1,4 @@
-While Mocha itself does not provide an assertion layer and cannot provide assertion counting, it's relatively easy to integrate this behaviour using hooks. The following is a simplified version of an assertion counter:
+While Mocha itself does not provide an assertion layer and cannot provide assertion counting, it's relatively easy to integrate this behavior using hooks. The following is a simplified version of an assertion counter:
 
 ```js
 
