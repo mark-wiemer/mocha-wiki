@@ -14,9 +14,12 @@ To suppress this warning, execute `mocha` with the `--no-deprecation` flag (thou
 
 ## What should I use instead then?
 
-For example, `--compilers coffee:coffee-script/register` can be expressed as `--require coffee-script/register`.  Likewise, `--compilers js:babel-register` can be expressed as `--require babel-register`.
+- CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffee-script/register`
+- Babel: `--compilers js:babel-register` becomes `--require babel-register`
+- TypeScript: `--ts:ts-node/register` becomes `--require ts-node/register`
+- (feel free to add more examples!)
 
-However, Mocha loads only `.js` files by default when running all files in a directory.  Therefore, to use a different file extension (such as `.coffee`), you will need to supply a *glob* instead of simply a directory.  If this was how you ran Mocha pre-v4:
+Mocha, by default, loads only `.js` when given a directory (and the default directory is `test`).  Therefore, to use a *different* file extension (such as `.coffee` or `.ts`), you will need to supply a *glob* instead of simply a directory.  If this was how you ran Mocha pre-v4:
 
 ```bash
 $ mocha --compilers coffee:coffee-script/register --recursive ./test
