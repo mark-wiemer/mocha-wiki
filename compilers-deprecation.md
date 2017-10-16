@@ -16,7 +16,7 @@ To suppress this warning, execute `mocha` with the `--no-deprecation` flag (thou
 
 - CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffee-script/register`
 - Babel: `--compilers js:babel-register` becomes `--require babel-register`
-- TypeScript: `--ts:ts-node/register` becomes `--require ts-node/register`
+- TypeScript: `--compilers ts:ts-node/register` becomes `--require ts-node/register`
 - (feel free to add more examples!)
 
 Mocha, by default, loads only `.js` when given a directory (and the default directory is `test`).  Therefore, to use a *different* file extension (such as `.coffee` or `.ts`), you will need to supply a *glob* instead of simply a directory.  If this was how you ran Mocha pre-v4:
