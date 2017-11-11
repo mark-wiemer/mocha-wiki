@@ -15,7 +15,7 @@ To suppress this warning, execute `mocha` with the `--no-deprecation` flag (thou
 ## What should I use instead then?
 
 - CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffee-script/register`
-- Babel: `--compilers js:babel-register` becomes `--require babel-register`
+- Babel: `--compilers js:babel-core/register` becomes `--require babel-core/register`
 - TypeScript: `--compilers ts:ts-node/register` becomes `--require ts-node/register`
 - (feel free to add more examples!)
 
