@@ -31,7 +31,9 @@ mocha.run(function(failures){
 });
 ```
 
-`mocha.run()` returns a `Runner` instance which emits many [events](https://github.com/mochajs/mocha/blob/8cae7a34f0b6eafeb16567beb8852b827cc5956b/lib/runner.js#L47-L57) of interest. Note that `run` (via `loadFiles`, which it calls) relies on Node's `require` to execute the test interface functions. Thus, files loaded by mocha will be stored in Node's `require` cache and therefore tests in these files will not be re-run if `mocha.run()` is called again. If you want to run tests multiple times, you may need to clear Node's `require` cache before subsequent calls in whichever manner best suits your needs.
+`mocha.run()` returns a `Runner` instance which emits many [events](https://github.com/mochajs/mocha/blob/8cae7a34f0b6eafeb16567beb8852b827cc5956b/lib/runner.js#L47-L57) of interest.
+
+Note that `run` (via `loadFiles`, which it calls) relies on Node's `require` to execute the test interface functions. Thus, files loaded by mocha will be stored in Node's `require` cache and therefore tests in these files will not be re-run if `mocha.run()` is called again. If you want to run tests multiple times, you may need to clear Node's `require` cache before subsequent calls in whichever manner best suits your needs.
 
 ## Set options
 
