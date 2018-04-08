@@ -12,9 +12,15 @@ To suppress this warning, execute `mocha` with the `--no-deprecation` flag (thou
 
 `--compilers` is redundant; we've yet to encounter a real-world situation in which the solution couldn't be expressed using `--require`.
 
-## What should I use instead then?
+## What should I use instead then
 
-- CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffee-script/register`
+Ensure that you have the coffeescript package installed as a dev dependency:
+
+```npm install coffeescript --save-dev```
+
+Then update your package.json with the relevant require statement.
+
+- CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffeescript/register`
 - Babel: `--compilers js:babel-core/register` becomes `--require babel-core/register`
 - TypeScript: `--compilers ts:ts-node/register` becomes `--require ts-node/register`
 - (feel free to add more examples!)
