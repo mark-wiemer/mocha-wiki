@@ -25,9 +25,7 @@ fs.readdirSync(testDir).filter(function(file){
 
 // Run the tests.
 mocha.run(function(failures){
-  process.on('exit', function () {
-    process.exit(failures);  // exit with non-zero status if there were failures
-  });
+  process.exitCode = failures ? -1 : 0;  // exit with non-zero status if there were failures
 });
 ```
 
