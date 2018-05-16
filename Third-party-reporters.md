@@ -1,8 +1,9 @@
   Mocha 1.3.0 allows you to define custom third-party reporters within your own test suite, or by using npm modules. For example if "lcov-reporter" was published to npm, you would simply add it to your package.json in `devDependencies` and use `--reporter lcov-reporter`.
 
-  Here is a minimalistic sample reporter, for details look at the implementations in [lib/reporters/*](https://github.com/mochajs/mocha/tree/master/lib/reporters).
+  Here is a minimalistic sample reporter, which you can use by executing: `mocha --reporter my-reporter.js`
 
 ```js
+// my-reporter.js
 var mocha = require('mocha');
 module.exports = MyReporter;
 
@@ -27,6 +28,8 @@ function MyReporter(runner) {
   });
 }
 ```
+
+For details look at the implementations in [lib/reporters/*](https://github.com/mochajs/mocha/tree/master/lib/reporters).
 
 Mocha provides the following events:
  * **start**: Execution started
