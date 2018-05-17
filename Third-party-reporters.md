@@ -27,6 +27,9 @@ function MyReporter(runner) {
     process.exit(failures);
   });
 }
+
+// To have this reporter "extend" a built-in reporter uncomment the following line:
+// mocha.utils.inherits(MyReporter, mocha.reporters.Spec);
 ```
 
 For details look at the implementations in [lib/reporters/*](https://github.com/mochajs/mocha/tree/master/lib/reporters).
