@@ -16,7 +16,7 @@ To suppress this warning, execute `mocha` with the `--no-deprecation` flag (thou
 
 Ensure that you have the coffeescript package installed as a dev dependency:
 
-```npm install coffeescript --save-dev```
+```npm install coffee-script --save-dev```
 
 Then update your package.json with the relevant require statement.
 
