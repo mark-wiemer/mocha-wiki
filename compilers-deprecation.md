@@ -21,7 +21,8 @@ Ensure that you have the coffeescript package installed as a dev dependency:
 Then update your package.json with the relevant require statement.
 
 - CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffeescript/register`
-- Babel: `--compilers js:babel-core/register` becomes `--require babel-core/register`
+- Babel 6: `--compilers js:babel-core/register` becomes `--require babel-core/register`
+- Babel 7: `--require babel-core/register` used if you are using Babel v6 becomes `--require @babel/register` with Babel v7.
 - TypeScript: `--compilers ts:ts-node/register` becomes `--require ts-node/register`
 - (feel free to add more examples!)
 
