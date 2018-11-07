@@ -40,6 +40,8 @@ Growl notifications are enabled by passing the `-G` or `--growl` command line op
 $ mocha --recursive --growl 'test'
 ```
 
+When the root suite completes test execution, a desktop notification should appear informing you whether your tests passed or not.
+
 
 [//]: # (Cross reference section)
 
