@@ -1,6 +1,6 @@
-There are a lot of reasons why you might want to automate running the tests using mocha. Using the command-line can run into some problems if you want to load specific files, for example.
+There are a lot of reasons why you might want to automate running the tests using Mocha. Using the command-line can run into some problems if you want to load specific files, for example.
 
-Here is an example of using mocha programmatically:
+Here is an example of using Mocha programmatically:
 
 ```javascript
 var Mocha = require('mocha'),
@@ -31,7 +31,7 @@ mocha.run(function(failures){
 
 `mocha.run()` returns a `Runner` instance which emits many [events](https://github.com/mochajs/mocha/blob/8cae7a34f0b6eafeb16567beb8852b827cc5956b/lib/runner.js#L47-L57) of interest.
 
-Note that `run` (via `loadFiles`, which it calls) relies on Node's `require` to execute the test interface functions. Thus, files loaded by mocha will be stored in Node's `require` cache and therefore tests in these files will not be re-run if `mocha.run()` is called again. If you want to run tests multiple times, you may need to clear Node's `require` cache before subsequent calls in whichever manner best suits your needs. The upcoming Mocha-6.0 release will provide `Mocha#unloadFiles`, which will remove all files loaded by `Mocha#loadFiles`.
+Note that `run` (via `loadFiles`, which it calls) relies on Node's `require` to execute the test interface functions. Thus, files loaded by Mocha will be stored in Node's `require` cache and therefore tests in these files will not be re-run if `mocha.run()` is called again. If you want to run tests multiple times, you may need to clear Node's `require` cache before subsequent calls in whichever manner best suits your needs. The upcoming Mocha-6.0 release will provide `Mocha#unloadFiles`, which will remove all files loaded by `Mocha#loadFiles`.
 
 ## Set options
 
@@ -77,9 +77,9 @@ mocha.reporter('list').ui('tdd').run();
 Here is the list of all these chainable methods:
 
 - `reporter()`: set the reporter.
-- `ui()`: set the ui.
-- `grep()`: add regex to grep. Unlike the command line parameter, grep() requires a RegExp() object for regular expressions. Everything else is escaped.
+- `ui()`: set the user interface (UI).
+- `grep()`: add regex to grep. Unlike the command line parameter, grep() requires a `RegExp()` object for regular expressions. Everything else is escaped.
 - `invert()`: invert the grep.
 - `ignoreLeaks()`: ignore global leaks.
-- `growl()`: enable growl support.
+- `growl()`: enable Growl support.
 - `globals()`: ignore globals.
