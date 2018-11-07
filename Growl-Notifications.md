@@ -11,9 +11,6 @@ $ sudo gem install terminal-notifier
 $ npm install growl
 ```
 
-Many years ago, the instructions would have used the original developer's
-product [growlnotify (mac)][], but unsure if it still works.
-
 ### Linux
 
 Install "notify-send" through the [libnotify-bin][] APT package. If you use
