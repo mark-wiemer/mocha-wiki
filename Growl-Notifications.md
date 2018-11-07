@@ -27,6 +27,7 @@ $ npm install growl
 ### Windows
 
 Download and install [Growl for Windows][] which contains [growlnotify (win)][].
+
 **IMPORTANT :** Ensure "growlnotify" is in a folder that is present in your **PATH**!
 
 ```posh
