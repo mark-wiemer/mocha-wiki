@@ -47,6 +47,6 @@ When the root suite completes test execution, a desktop notification should appe
 
 [terminal-notifier]: https://github.com/alloy/terminal-notifier/
 [libnotify-bin]: https://packages.ubuntu.com/trusty/libnotify-bin
-[Growl for Windows]: http://www.growlforwindows.com/gfw/default.aspx
-[growlnotify (win)]: http://www.growlforwindows.com/gfw/help/growlnotify.aspx
+[Growl for Windows]: https://github.com/briandunnington/growl-for-windows/releases/download/final/GrowlInstaller.exe
+[growlnotify (win)]: https://github.com/briandunnington/growl-for-windows/blob/master/Growl%20Extras/growlnotify/growlnotify.exe
 [growlnotify (mac)]: http://growl.info/extras.php#growlnotify
