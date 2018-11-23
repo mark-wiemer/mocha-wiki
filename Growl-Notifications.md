@@ -24,11 +24,19 @@ $ npm install growl
 ### Windows
 
 Download and install [Growl for Windows][] which contains [growlnotify (win)][].
+Assuming defaults were taken, this should install to "C:\Program Files (x86)\Growl for Windows" directory.
 
 **IMPORTANT :** Ensure "growlnotify" is in a folder that is present in your **PATH**!
-
 ```posh
 C:> echo %path:;=&echo.%
+```
+
+Echo the PATH environment variable with the command above; if you don't see the above directory, you'll need to [adjust it manually][ms-add-envvar-to-path].
+
+
+
+
+```posh
 C:> npm install growl
 ```
 
@@ -50,3 +58,4 @@ When the root suite completes test execution, a desktop notification should appe
 [Growl for Windows]: https://github.com/briandunnington/growl-for-windows/releases/download/final/GrowlInstaller.exe
 [growlnotify (win)]: https://github.com/briandunnington/growl-for-windows/blob/master/Growl%20Extras/growlnotify/growlnotify.exe
 [growlnotify (mac)]: http://growl.info/extras.php#growlnotify
+[ms-add-envvar-to-path]: https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables
