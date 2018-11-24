@@ -24,22 +24,21 @@ $ npm install growl
 ### Windows
 
 Download and install [Growl for Windows][] which contains [growlnotify (win)][].
-Assuming defaults were taken, this should install to "C:\Program Files (x86)\Growl for Windows" directory.
+Assuming defaults were taken, <samp>"C:\Program Files (x86)\Growl for Windows"</samp> will be the installation directory.
 
 **IMPORTANT :** Ensure "growlnotify" is in a folder that is present in your **PATH**!
+
+[Adjust your PATH environment variable][ms-add-envvar-to-path] to add the Growl installation directory.
+Once that's done, turn Growl on and send yourself a test notification.
 ```posh
-C:> echo %path:;=&echo.%
+C:> growl start
+C:> growlnotify "it works!"
 ```
 
-Echo the PATH environment variable with the command above; if you don't see the above directory, you'll need to [adjust it manually][ms-add-envvar-to-path].
-
-
-
-
+Now install the npm package needed to allow Mocha to send you notifications.
 ```posh
 C:> npm install growl
 ```
-
 
 ## Usage
 Growl notifications are enabled by passing the `-G` or `--growl` command line option when running Mocha.
@@ -53,9 +52,9 @@ When the root suite completes test execution, a desktop notification should appe
 
 [//]: # (Cross reference section)
 
-[terminal-notifier]: https://github.com/alloy/terminal-notifier/
-[libnotify-bin]: https://packages.ubuntu.com/trusty/libnotify-bin
 [Growl for Windows]: https://github.com/briandunnington/growl-for-windows/releases/download/final/GrowlInstaller.exe
 [growlnotify (win)]: https://github.com/briandunnington/growl-for-windows/blob/master/Growl%20Extras/growlnotify/growlnotify.exe
 [growlnotify (mac)]: http://growl.info/extras.php#growlnotify
+[libnotify-bin]: https://packages.ubuntu.com/trusty/libnotify-bin
 [ms-add-envvar-to-path]: https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables
+[terminal-notifier]: https://github.com/alloy/terminal-notifier/
