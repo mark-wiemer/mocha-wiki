@@ -26,8 +26,6 @@ $ npm install growl
 Download and install [Growl for Windows][] which contains [growlnotify (win)][].
 Assuming defaults were taken, <samp>"C:\Program Files (x86)\Growl for Windows"</samp> will be the installation directory.
 
-**IMPORTANT :** Ensure "growlnotify" is in a folder that is present in your **PATH**!
-
 [Adjust your **PATH** environment variable][ms-add-envvar-to-path] to add the Growl installation directory.
 Once that's done, turn Growl on and send yourself a test notification.
 ```posh
