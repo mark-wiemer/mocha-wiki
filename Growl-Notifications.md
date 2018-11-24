@@ -33,7 +33,7 @@ C:> growl start
 C:> growlnotify "it works!"
 ```
 
-Now install the npm package needed to allow Mocha to send you notifications.
+Finally, install the npm package needed to allow Mocha to send you notifications.
 ```posh
 C:> npm install growl
 ```
