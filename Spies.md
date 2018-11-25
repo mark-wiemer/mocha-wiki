@@ -4,9 +4,9 @@ Mocha does not come equipped with spies, though libraries like [Sinon](https://g
 var sinon = require('sinon')
   , EventEmitter = require('events').EventEmitter;
 
-describe('EventEmitter', function(){
-  describe('#emit()', function(){
-    it('should invoke the callback', function(){
+describe('EventEmitter', function() {
+  describe('#emit()', function() {
+    it('should invoke the callback', function() {
       var spy = sinon.spy()
         , emitter = new EventEmitter();
 
@@ -15,7 +15,7 @@ describe('EventEmitter', function(){
       spy.called.should.equal.true;
     })
 
-    it('should pass arguments to the callbacks', function(){
+    it('should pass arguments to the callbacks', function() {
       var spy = sinon.spy()
         , emitter = new EventEmitter();
 
@@ -31,18 +31,18 @@ describe('EventEmitter', function(){
 The following is the same test, performed without any special spy library, simply utilizing the Mocha `done([err])` callback as a means to assert that the callback has occurred, otherwise resulting in a timeout. Note that Mocha only allows `done()` to be invoked once, and will otherwise error.
 
 ```js
-describe('EventEmitter', function(){
-  describe('#emit()', function(){
-    it('should invoke the callback', function(done){
+describe('EventEmitter', function() {
+  describe('#emit()', function() {
+    it('should invoke the callback', function(done) {
       var emitter = new EventEmitter();
       emitter.on('foo', done);
       emitter.emit('foo');
     })
 
-    it('should pass arguments to the callbacks', function(done){
+    it('should pass arguments to the callbacks', function(done) {
       var emitter = new EventEmitter();
 
-      emitter.on('foo', function(a, b){
+      emitter.on('foo', function(a, b) {
         a.should.equal('bar');
         b.should.equal('baz');
         done();
