@@ -28,19 +28,19 @@ function check() {
 beforeEach(reset);
 afterEach(check);
 
-describe('something', function(){
+describe('something', function() {
   it('should work', function(done){
     expect(2);
 
-    setTimeout(function(){
+    setTimeout(function() {
       assert('wahoo')
     }, 50);
 
-    setTimeout(function(){
+    setTimeout(function() {
       assert('hey')
     }, 50);
 
-    setTimeout(function(){
+    setTimeout(function() {
       done();
     }, 100);
   })
