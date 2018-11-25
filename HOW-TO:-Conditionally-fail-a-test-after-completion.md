@@ -4,16 +4,16 @@ with an instanceof `Error`.
 
 ```js
 
-describe('something', function(){
-  it('should one', function(){
+describe('something', function() {
+  it('should one', function() {
     this.ok = true;
   })
 
-  it('should two', function(){
+  it('should two', function() {
     this.ok = false;
   })
 
-  afterEach(function(){
+  afterEach(function() {
     if (!this.ok) this.test.error(new Error('something went wrong'));
   })
 })
