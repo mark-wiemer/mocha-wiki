@@ -70,7 +70,8 @@
 ### Test coverage
 
   - [cover](https://github.com/itay/node-cover)
-  - [istanbul](https://github.com/gotwarlost/istanbul)
+  - [istanbul](https://github.com/istanbuljs/istanbuljs)
+  - [nyc](https://github.com/istanbuljs/nyc)
   - [blanket](https://github.com/alex-seville/blanket)
   - [mochify](https://github.com/mantoni/mochify.js) -- coverage for node and phantomjs using browserify and coverify
   - Examples
