@@ -69,7 +69,6 @@
 
 ### Test coverage
 
-  - mocha's out of the box html-cov reporter
   - [cover](https://github.com/itay/node-cover)
   - [istanbul](https://github.com/gotwarlost/istanbul)
   - [blanket](https://github.com/alex-seville/blanket)
