@@ -24,6 +24,7 @@ Then update your package.json with the relevant require statement.
 - Babel 6: `--compilers js:babel-core/register` becomes `--require babel-core/register`
 - Babel 7: `--require babel-core/register` used if you are using Babel v6 becomes `--require @babel/register` with Babel v7.
 - TypeScript: `--compilers ts:ts-node/register` becomes `--require ts-node/register`
+- LiveScript: `--compilers ls:livescript becomes `--require livescript`
 - (feel free to add more examples!)
 
 Mocha, by default, loads only `.js` when given a directory (and the default directory is `test`).  Therefore, to use a *different* file extension (such as `.coffee` or `.ts`), you will need to supply a *glob* instead of simply a directory.  If this was how you ran Mocha pre-v4:
