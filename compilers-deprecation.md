@@ -12,13 +12,15 @@ To suppress this warning, execute `mocha` with the `--no-deprecation` flag (thou
 
 `--compilers` is redundant; we've yet to encounter a real-world situation in which the solution couldn't be expressed using `--require`.
 
-## What should I use instead then
+## What should I use instead then?
 
-Ensure that you have the coffeescript package installed as a dev dependency:
+Let's say you want to compile using CoffeeScript. Ensure that you have the coffeescript package installed as a dev dependency:
 
 ```npm install coffeescript --save-dev```
 
-Then update your package.json with the relevant require statement.
+Then update your package.json with the relevant require statement: `--require coffeescript/register`.
+
+Here's a list of popular compilers/transpilers:
 
 - CoffeeScript: `--compilers coffee:coffee-script/register` becomes `--require coffeescript/register`
 - Babel 6: `--compilers js:babel-core/register` becomes `--require babel-core/register`
@@ -27,7 +29,7 @@ Then update your package.json with the relevant require statement.
 - LiveScript: `--compilers ls:livescript` becomes `--require livescript`
 - (feel free to add more examples!)
 
-Mocha, by default, loads only `.js` when given a directory (and the default directory is `test`).  Therefore, to use a *different* file extension (such as `.coffee` or `.ts`), you will need to supply a *glob* instead of simply a directory.  If this was how you ran Mocha pre-v4:
+You'll have to handle file extensions as well. Mocha, by default, only loads `.js` files when given a directory (and the default directory is `test`).  Therefore, to use a *different* file extension (such as `.coffee` or `.ts`), you will need to supply a *glob* instead of simply a directory.  If this was how you ran Mocha pre-v4:
 
 ```bash
 $ mocha --compilers coffee:coffee-script/register --recursive ./test
