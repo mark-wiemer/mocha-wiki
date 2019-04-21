@@ -35,7 +35,7 @@ Note that `run` (via `loadFiles`, which it calls) relies on Node's `require` to 
 
 Unfortunately, event listeners in multiple places are not yet configured for restartability; for now, we recommend recreating the `mocha` instance before rerunning to _ensure_ everything gets reset properly.
 
-Find a fully [working example here](https://github.com/mochajs/mocha-examples/tree/master/programmatic-usage)
+Find a fully [working example here](https://github.com/mochajs/mocha-examples/tree/master/programmatic-usage).
 
 ## Set options
 
