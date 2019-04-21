@@ -85,3 +85,5 @@ Here is the list of all these chainable methods:
 - `ignoreLeaks()`: ignore global leaks.
 - `growl()`: enable Growl support.
 - `globals()`: ignore globals.
+
+Find a fully [working example here](https://github.com/mochajs/mocha-examples/tree/master/programmatic-usage)
