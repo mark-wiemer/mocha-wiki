@@ -35,6 +35,8 @@ Note that `run` (via `loadFiles`, which it calls) relies on Node's `require` to 
 
 Unfortunately, event listeners in multiple places are not yet configured for restartability; for now, we recommend recreating the `mocha` instance before rerunning to _ensure_ everything gets reset properly.
 
+Find a fully [working example here](https://github.com/mochajs/mocha-examples/tree/master/programmatic-usage)
+
 ## Set options
 
 There are two ways to set the options to run the tests.
@@ -85,5 +87,3 @@ Here is the list of all these chainable methods:
 - `ignoreLeaks()`: ignore global leaks.
 - `growl()`: enable Growl support.
 - `globals()`: ignore globals.
-
-Find a fully [working example here](https://github.com/mochajs/mocha-examples/tree/master/programmatic-usage)
