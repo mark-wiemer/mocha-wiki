@@ -1,4 +1,4 @@
-If you want to stub stdout inside your own code (via `process.stdout.write` or `console.log`) the problem is it will effect Mochas reporters, which rely on the same mechanisms to print results of the tests.
+If you want to stub stdout inside your own code (via `process.stdout.write` or `console.log`) there is a potential to hinder Mochas reporters output. This is because they rely on the same mechanisms to print results of the tests.
 
 i.e.
 ``` javascript
@@ -11,7 +11,7 @@ it('should do, but it do not', function() {
 });
 ```
 
-This will result in a faulty output.
+This will result in a faulty reporter output.
 
 The correct way to handle this is to stub before and restore after the function call.
 
