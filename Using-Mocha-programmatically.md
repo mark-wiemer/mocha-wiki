@@ -57,7 +57,7 @@ Here is the list of these options:
 - `reporter`
 - `timeout`
 - `bail`
-- `useColors`
+- `colors`
 - `retries`
 - `slow`
 - `ignoreLeaks`
