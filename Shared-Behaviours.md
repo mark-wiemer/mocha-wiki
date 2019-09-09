@@ -12,8 +12,8 @@ exports.shouldBehaveLikeAUser = function() {
     this.user.name.last.should.equal('holowaychuk');
   })
 
-  describe('.fullname()', function(){
-    it('should return the full name', function(){
+  describe('.fullname()', function() {
+    it('should return the full name', function() {
       this.user.fullname().should.equal('tobi holowaychuk');
     })
   })
