@@ -26,4 +26,6 @@ describe('Test the page loads',() {
 // tests ...
 ```
 
+Any issues or questions please contact us on Gitter. 
 
+Thanks
