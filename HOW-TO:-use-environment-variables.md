@@ -2,6 +2,7 @@ Sometimes you might want your test to make use of variables set on an environmen
 - flagging a run as CI
 - setting the domain of your app
 - pointing to a test db
+- setting a secure key
 
 To do this you can use NodeJS's native environmental variables. 
 
