@@ -1,4 +1,4 @@
-Sometimes you might want your test to make use of variables on an environment-level. Common reasons for this include
+Sometimes you might want your test to make use of variables set on an environment-level. Common reasons for this include
 - flagging a run as CI
 - setting the domain of your app
 - pointing to a test db
