@@ -4,7 +4,7 @@ Sometimes you might want your test to make use of variables set on an environmen
 - pointing to a test db
 - setting a secure key
 
-To do this you can use NodeJS's native environmental variables. 
+The best way to do this is to use NodeJS's native environmental variables.
 
 ## Example
 
