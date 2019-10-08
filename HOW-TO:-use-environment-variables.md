@@ -1,4 +1,4 @@
-Sometimes you might want your test to make use of variables on an environment-level e.g. flagging a run as CI, setting the domain of your app, or pointing to a test db.
+Sometimes you might want your test to make use of variables on an environment-level e.g. flagging a run as CI, setting the domain of your app or pointing to a test db.
 
 To do this you can use NodeJS's native environmental variables. 
 
