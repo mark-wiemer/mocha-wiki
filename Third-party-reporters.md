@@ -35,6 +35,8 @@ For details look at the implementations in [lib/reporters/*](https://github.com/
 
 Mocha provides the following events:
  * **start**: Execution started
+ * **waiting**: Execution of root `Suite` delayed
+ * **ready**: Execution of root `Suite` started
  * **end**: Execution complete
  * **suite**: Test suite execution started
  * **suite end**: All tests (and sub-suites) have finished
@@ -45,3 +47,4 @@ Mocha provides the following events:
  * **pass**: Test passed
  * **fail**: Test failed
  * **pending**: Test pending
+ * **retry**: Test failed and retries
