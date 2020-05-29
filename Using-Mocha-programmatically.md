@@ -50,18 +50,7 @@ var mocha = new Mocha({
 });
 ```
 
-Here is the list of these options:
-
-- `grep`
-- `ui`
-- `reporter`
-- `timeout`
-- `bail`
-- `colors`
-- `retries`
-- `slow`
-- `ignoreLeaks`
-- `fullTrace`
+Please check our [API documentation](https://mochajs.org/api/mocha) for a complete list of these options.
 
 Secondly, on the `mocha` object, there are some chainable methods allowing you to change some more options.
 
@@ -78,12 +67,4 @@ mocha.ui('tdd').run();
 mocha.reporter('list').ui('tdd').run();
 ```
 
-Here is the list of all these chainable methods:
-
-- `reporter()`: set the reporter.
-- `ui()`: set the user interface (UI).
-- `grep()`: add regex to grep. Unlike the command line parameter, grep() requires a `RegExp()` object for regular expressions. Everything else is escaped.
-- `invert()`: invert the grep.
-- `ignoreLeaks()`: ignore global leaks.
-- `growl()`: enable Growl support.
-- `globals()`: ignore globals.
+Please check our [API documentation](https://mochajs.org/api/mocha) for more information.
