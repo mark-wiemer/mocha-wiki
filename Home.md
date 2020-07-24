@@ -53,6 +53,7 @@
   - [mocha-fivemat-reporter](https://github.com/dsawardekar/mocha-fivemat-reporter) - Reporter format inspired by [fivemat](https://www.github.com/tpope/fivemat). Better signal vs noise ratio for larger test suites.
   - [mocha-teamcity-reporter](https://github.com/travisjeffery/mocha-teamcity-reporter) - Teamcity reporter for Mocha.
   - [mocha-tesults-reporter](https://github.com/tesults/mocha-tesults-reporter) - Tesults reporter for Mocha.
+  - [mocha-selenium-bridge](https://github.com/eemeli/mocha-selenium-bridge) - Run tests in the browser, report results via Node
   - [loca](https://github.com/simov/loca) - Reporter in your browser's console.
   - [mocha-retry](https://github.com/giggio/mocha-retry) - Allows you to retry a test if it fails using the bdd ui. Useful on unstable tests, like those that drive a browser. 
   - [child-reporter](https://github.com/yarax/mocha-child-reporter) - Reporter, that create a child process with stdout to console. Useful for testing modules that redirect stdout to /dev/null or logs
