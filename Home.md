@@ -60,6 +60,7 @@
   - [report-viewer](https://github.com/paulpflug/report-viewer) - Cli for piping a unit test result directly into your browser. Combines the debug level of the console with the pretty output of a browser ui.
   - [@testdeck/mocha](https://www.npmjs.com/package/@testdeck/mocha) - TypeScript OOP, decorators based, mocha test interface.
   - [mochawesome](https://github.com/adamgruber/mochawesome) - Produces a gorgeous standalone HTML/CSS report.
+  - [mocha-progress-reporter](https://github.com/ramtinsoltani/mocha-progress-reporter) - Custom Mocha reporter with spinners and progress reporting ability.
 
 ### Headless testing
 
