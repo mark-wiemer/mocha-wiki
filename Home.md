@@ -17,10 +17,10 @@
  - [unexpected](https://unexpectedjs.github.io/) - extensible BDD assertion toolkit *recommended*
  - [chai](http://chaijs.com/) - expect(), assert() and should style assertions *recommended*
  - [expect.js](https://github.com/LearnBoost/expect.js) - expect() style assertions *recommended*
- - [should.js](https://github.com/shouldjs/should.js) - BDD style shown throughout these docs
  - [expectations](https://github.com/spmason/expectations) - Jasmine-style expect()
  - [unit.js](https://github.com/unitjs/unit.js) - simple, fluent assertions
  - [inspect.js](https://inspectjs.com/) - modern BDD style assertion library
+ - [earl](https://earljs.dev/) - ergonomic, modern and type-safe assertion library for TypeScript
 
 ### Mocks, Stubs, & Spies
 
@@ -37,26 +37,14 @@
 
   - [mocha-suit](https://github.com/muonjs/mocha-suit) - OOP like mocha wrapper 
   - [mocha-clean](https://github.com/rstacruz/mocha-clean) - Cleaner stack traces
-  - [mocha-matrix](https://github.com/visionmedia/mocha-matrix) - concise matrix reporter for the browser
-  - [mocha-cakes](https://github.com/quangv/mocha-cakes) - BDD acceptance tests, Cucumber Given/When/Then stories add-on for Mocha.
   - [mocha.parallel](https://github.com/danielstjules/mocha.parallel) - Run async mocha specs in parallel.
   - [lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) -- lcov reporter
-  - [text-cov](https://github.com/seanmonstar/mocha-text-cov) -- Text summary in console of code coverage
-  - [JSCovReporter](https://github.com/TwoApart/JSCovReporter) In browser Javascript coverage reporter using CoverJS instrumented code.
-  - [qunit-mocha-ui](https://github.com/itaylor/qunit-mocha-ui) - A Mocha interface that more closely replicates the QUnit API, including QUnit's assertions.
-  - [mocha-qunit-ui](https://github.com/jugglinmike/mocha-qunit-ui) - Mocha interface that is API-compatible with QUnit
-  - [mocha-ui-tsexports](https://github.com/andreesteve/mocha-ui-tsexports) - Mocha interface that enables tests written using TypeScript classes
   - [xunit-file](https://github.com/peerigon/xunit-file) - A Mocha reporter similar to `xunit`, but writes to a file (excludes all `console.log` output that breaks the xml).
   - [WebConsole-reporter](https://github.com/eeroan/WebConsole-reporter) - A Mocha reporter that displays reports in browser console. Works faster than html reporter and provides clickable stack traces.
-  - [mocha-slow-reporter](https://github.com/msiebuhr/node-mocha-slow-reporter) - Outputs a profile-like tree of the tests/hooks to help you fix test-suite slowness.
   - [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter) - An alternate to the default Spec-style reporter for improved usability and added compatibility features for use in various low-tech scenarios. Does *not* use console cursor tricks or positional ANSI codes.
-  - [mocha-fivemat-reporter](https://github.com/dsawardekar/mocha-fivemat-reporter) - Reporter format inspired by [fivemat](https://www.github.com/tpope/fivemat). Better signal vs noise ratio for larger test suites.
   - [mocha-teamcity-reporter](https://github.com/travisjeffery/mocha-teamcity-reporter) - Teamcity reporter for Mocha.
-  - [mocha-tesults-reporter](https://github.com/tesults/mocha-tesults-reporter) - Tesults reporter for Mocha.
   - [mocha-selenium-bridge](https://github.com/eemeli/mocha-selenium-bridge) - Run tests in the browser, report results via Node
   - [loca](https://github.com/simov/loca) - Reporter in your browser's console.
-  - [mocha-retry](https://github.com/giggio/mocha-retry) - Allows you to retry a test if it fails using the bdd ui. Useful on unstable tests, like those that drive a browser. 
-  - [child-reporter](https://github.com/yarax/mocha-child-reporter) - Reporter, that create a child process with stdout to console. Useful for testing modules that redirect stdout to /dev/null or logs
   - [report-viewer](https://github.com/paulpflug/report-viewer) - Cli for piping a unit test result directly into your browser. Combines the debug level of the console with the pretty output of a browser ui.
   - [@testdeck/mocha](https://www.npmjs.com/package/@testdeck/mocha) - TypeScript OOP, decorators based, mocha test interface.
   - [mochawesome](https://github.com/adamgruber/mochawesome) - Produces a gorgeous standalone HTML/CSS report.
