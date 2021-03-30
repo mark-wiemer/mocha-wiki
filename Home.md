@@ -2,7 +2,6 @@
 
  - [[Spies]]
  - [[Shared Behaviours]]
- - [Conditionally fail a test after completion](/mochajs/mocha/wiki/HOW-TO:-Conditionally-fail-a-test-after-completion)
  - [[Third party reporters]]
  - [[Third party UIs]]
  - [[Tagging]]
