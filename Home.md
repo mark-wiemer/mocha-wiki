@@ -31,6 +31,8 @@
    - [mocha-plugin-co](https://github.com/131/mocha-plugin-co) - plugin to enable generators support for (using co)
    - [mocha-plugin-highland](https://github.com/robertstettner/mocha-plugin-highland) - plugin to enable Highland streams support
    - [mocha-when](https://github.com/Alhadis/Mocha-When) - drop-in enhancement for more eloquent BDD tests
+   - [mocha-profiler](https://github.com/Dreamscapes/mocha-profiler) - a plugin that generates a V8 CPU profile of your test runs
+
 
 ### Interfaces & Reporters
 
