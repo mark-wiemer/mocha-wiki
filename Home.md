@@ -7,7 +7,6 @@
  - [[Tagging]]
  - [Find a specific global leak](/mochajs/mocha/wiki/HOW-TO:-Find-a-specific-global-leak)
  - [Count assertions](/mochajs/mocha/wiki/HOW-TO:-Count-assertions)
- - [[Growl Notifications]]
 
 ## Add-ons
 
