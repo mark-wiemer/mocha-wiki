@@ -33,6 +33,8 @@ function MyReporter(runner) {
 
 For details look at the implementations in [lib/reporters/*](https://github.com/mochajs/mocha/tree/master/lib/reporters).
 
+Another sample implementation can be found at [mocha-examples: third-party-reporter (GitHub)](https://github.com/mochajs/mocha-examples/tree/main/packages/third-party-reporter).
+
 Mocha provides the following events:
  * **start**: Execution started
  * **waiting**: Execution of root `Suite` delayed
